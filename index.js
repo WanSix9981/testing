@@ -1,7 +1,4 @@
-let {
-  useSingleFileAuthState,
-  DisconnectReason
-} = require('@adiwajshing/baileys')
+let { WAConnection: _WAConnection } = require('@adiwajshing/baileys')
 let { generate } = require('qrcode-terminal')
 let simple = require('./lib/simple')
 let yargs = require('yargs/yargs')
